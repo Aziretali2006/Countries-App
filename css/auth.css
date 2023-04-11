@@ -1,0 +1,45 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login_point {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(0,0,0,0.8);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  padding-top: 20px;
+}
+
+.login_point h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.login_point input {
+  width: 85%;
+  padding: 10px 5px;
+  border: 0;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.login_point button {
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.error {
+  color:rgb(224, 36, 36);
+  font-size: 17px;
+}
